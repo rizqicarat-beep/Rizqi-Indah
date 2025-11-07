@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wedding of Indah & Rizqi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<audio id="myAudio" loop>
+    <source src="assets/wedding_song.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<button id="toggle-music" class="floating-music-btn" style="display: none;">
+    <i id="floating-music-icon" class="fas fa-volume-off"></i>
+</button>
+
+<body>
+    
+    <div id="cover-section" class="cover-section">
+        <div class="cover-content">
+            <p>The Wedding of</p>
+            <h1>Indah & Rizqi</h1>
+            <p class="kepada">Kepada Yth.<br>Bapak/Ibu/Saudara/i</p>
+            <h2 id="guest-name">Tamu Undangan</h2>
+            <button id="open-button" class="btn-open"><i class="fas fa-envelope-open"></i> Buka Undangan</button>
+        </div>
+    </div>
+    
+    <div id="main-content" class="main-content">
+        
+        <section id="home" class="hero-section">
+            <div class="container">
+                <p>The Wedding of</p>
+                <h2>Indah & Rizqi</h2>
+                <div id="countdown" class="countdown"></div>
+                <p class="tanggal-utama">Jum'at, 21 November 2025</p>
+                <a href="#akad" class="btn-scroll">Lihat Detail Acara</a>
+            </div>
+        </section>
+        
+        <section id="quote" class="section quote-section">
+            <div class="container">
+                <p class="arabic-text">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُمْ مِنْ أَنْفُسِكُمْ أَزْوَاجًا لِتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَوَدَّةً وَرَحْمَةً ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِقَوْمٍ يَتَفَكَّرُونَ</p>
+                <p class="quote-text">"Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."</p>
+                <p class="quote-source">— Q.S. Ar-Rum (30) : 21</p>
+            </div>
+        </section>
+        
+        <section id="mempelai" class="section mempelai-section">
+            <div class="container">
+                <h3>Kami yang berbahagia</h3>
+                <div class="mempelai-card">
+                    <img src="assets/G5.jpg" alt="Foto Indah" class="mempelai-photo">
+                    <h4>Indah Nur Aliyah</h4>
+                    <p>Putri Pertama dari<br>Bapak Sudardi & Ibu Riswati</p>
+                </div>
+                <h4 class="ampersand">&</h4>
+                <div class="mempelai-card">
+                    <img src="assets/G4.jpg" alt="Foto Rizqi" class="mempelai-photo">
+                    <h4>Rizqi Fakhrur Rohman</h4>
+                    <p>Putra Kedua dari<br>Bapak Paryono & Ibu Sutini</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="akad" class="section acara-section">
+            <div class="container">
+                <h3>Detail Acara</h3>
+                
+                <div class="acara-card">
+                    <h4><i class="fas fa-glass-cheers"></i> Resepsi</h4>
+                    <p class="date">Jum'at, 21 November 2025</p>
+                    <p class="time">Pukul 13.00 - Selesai</p>
+                    <p class="place">Desa Sidomukti, RT 01/ RW 01<br>Plaosan, Magetan</p>
+                    <a href="https://goo.gl/maps/wUyeQfRpbmK1VFas8?g_st=aw" target="_blank" class="btn-location"><i class="fas fa-map-marker-alt"></i> Lihat Lokasi (Google Maps)</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="story" class="section story-section">
+            <div class="container">
+                <h3>Our Love Story</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">28 November 2023</div>
+                        <img src="assets/G1.jpg" alt="Foto Pertemuan" class="story-img">
+                        <h4>Awal Pertemuan</h4>
+                        <p>Semua berawal dari pertemuan di supermarket AOEN (Jepang). Awalnya hanya ngobrol biasa, setelah itu bertukar nomor WhatsApp. Kemudian 1 bulan PDKT tumbuhlah rasa yang lebih dari sekedar teman. Dari situlah kisah kami dimulai dan mulai menjalin hubungan pacaran di tanggal 1 Januari 2024.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">24 Agustus 2025</div>
+                        <img src="assets/G2.jpg" alt="Foto Kencan" class="story-img">
+                        <h4>Menjalin Kasih</h4>
+                        <p>Setelah menjalani perjalanan bersama, akhirnya keluarga nya datang dengan niat serius melamar dan meminta restu dari orang tua. Tanggal 24 Agustus menjadi hari spesial yang mempertemukan dua keluarga dalam satu niat baik.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">16 November 2025</div>
+                        <img src="assets/BG.jpg" alt="Foto Pernikahan" class="story-img"> <h4>Menuju Halal</h4>
+                        <p>Insya Allah, atas izin Allah SWT, kami akan mengikat janji suci pernikahan, memulai babak baru dalam hidup bersama.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section id="gift" class="section gift-section">
+            <div class="container">
+                <h3>Wedding Gift</h3>
+                <p>Doa restu Anda merupakan karunia yang tak ternilai harganya. Namun, jika Anda ingin memberikan hadiah, silakan melalui:</p>
+                <div class="gift-box">
+                    <h4>Transfer Bank & E-Wallet</h4>
+                    
+                    <div class="account-item">
+                        <img src="assets/Logo BRI.png" alt="Logo BRI" class="bank-logo"> 
+                        <div class="account-details">
+                            <p>Bank BRI</p>
+                            <p>Rizqi Fakhrur Rohman</p>
+                            <p>No. Rek. <span id="bri-number">387901045862538</span></p>
+                        </div>
+                        <button class="btn-copy" data-target="bri-number"><i class="fas fa-copy"></i> Salin</button> 
+                    </div>
+                    
+                    <div class="account-item">
+                        <img src="assets/Logo Dana.png" alt="Logo Dana" class="bank-logo"> 
+                        <div class="account-details">
+                            <p>DANA (E-Wallet)</p>
+                            <p>Rizqi Fakhrur Rohman</p>
+                            <p>No. DANA: <span id="dana-number">082245913839</span></p>
+                        </div>
+                        <button class="btn-copy" data-target="dana-number"><i class="fas fa-copy"></i> Salin</button> 
+                    </div>
+                    
+                </div>
+                <p class="note">Terima kasih atas perhatian dan doa restunya.</p>
+            </div>
+        </section>
+
+
+        <section id="wishes" class="section wishes-section">
+            <div class="container">
+                <h3>Kirim Ucapan & Doa</h3>
+                <form action="#" method="POST">
+                    <input type="text" placeholder="Nama Anda" required>
+                    <textarea placeholder="Tuliskan ucapan & doa terbaik Anda..." rows="4" required></textarea>
+                    <button type="submit" class="btn-send">Kirim Ucapan</button>
+                </form>
+                
+                <div class="wishes-list">
+                    <div class="wish-item">
+                        <p><strong>Mas Sandi:</strong> Selamat menempuh hidup baru Indah & Rizqi! Semoga sakinah, mawaddah, warahmah.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2025 Undangan Indah & Rizqi | Dibuat dengan cinta</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
